@@ -1,0 +1,104 @@
+* {
+    font-family: Nunito;
+}
+
+.navbar { background-color: #044795; }
+
+img
+{
+    -drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+::selection
+{
+    background-color: rgba(138, 138, 138, 0.288);
+    color: #2daffa;
+}
+
+body { overflow-x: hidden }
+
+.hero { height: 100vh; }
+
+.bg-hero img
+{
+    filter: brightness(40%);
+    z-index: -1;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    object-fit: fill;
+}
+
+.getApp img
+{
+    height: auto;
+    width: 150px;
+}
+
+.main { min-height: 100vh }
+
+.title button
+{
+    background-color: #00A0E4;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.truk img { width: auto }
+
+.achivement { min-height: 95vh }
+
+.card, .card-text { transition: .5s ease all; }
+
+.list .card img { width: 200px }
+
+.card:hover { box-shadow: 0px 0px 20px 1px rgb(219, 218, 218) }
+
+.card:hover .card-text { color: #0695D5; }
+
+.app
+{
+    color: white;
+    background: #3AB2F3;
+}
+
+.app img { width: 80% }
+
+.app-getApp img
+{
+    height: auto;
+    width: 140px;
+}
+
+.contact
+{
+    background: #ECF5F9;
+    height: 40vh;
+}
+
+.link p { letter-spacing: 1px }
+
+.terms { font-weight: bold; }
+
+.terms .title-terms { letter-spacing: 2px }
+
+.terms-item p { font-size: 13px }
+
+.footer { background: #044795 }
+
+.footer p { font-size: 13px; }
+
+@media screen and (max-width: 1480px) {
+    .truk img { width: 100vw }
+    .app-quote
+    {
+        color: black;
+        background: white;
+    }
+    .contact { height: 65vh }
+}
